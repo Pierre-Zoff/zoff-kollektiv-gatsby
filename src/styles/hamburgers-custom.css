@@ -1,0 +1,48 @@
+.hamburger {
+  padding: 0 !important;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 1.2rem !important;
+  margin: auto;
+  z-index: 1100;
+}
+
+.hamburger:focus {
+  outline: 0 !important;
+}
+
+.theme-green .hamburger-inner,
+.theme-green .hamburger-inner::before,
+.theme-green .hamburger-inner::after {
+  background-color: #47BE61;
+  border-radius: 0;
+}
+
+.theme-red .hamburger-inner,
+.theme-red .hamburger-inner::before,
+.theme-red .hamburger-inner::after {
+  background-color: #ED4646;
+  border-radius: 0;
+}
+
+.theme-blue .hamburger-inner,
+.theme-blue .hamburger-inner::before,
+.theme-blue .hamburger-inner::after {
+  background-color: #0076E2;
+  border-radius: 0;
+}
+
+.theme-gray .hamburger-inner,
+.theme-gray .hamburger-inner::before,
+.theme-gray .hamburger-inner::after {
+  background-color: #353535;
+  border-radius: 0;
+}
+
+.is-active .hamburger-inner,
+.is-active .hamburger-inner::before,
+.is-active .hamburger-inner::after {
+  background-color: #fff !important;
+  border-radius: 0;
+}

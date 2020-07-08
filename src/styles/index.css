@@ -1,0 +1,59 @@
+@import "./hamburgers.css";
+@import "./hamburgers-custom.css";
+@import "./fonts.css";
+@tailwind base;
+@tailwind utilities;
+@tailwind components;
+
+h1 {
+  @apply text-3xl;
+  @apply font-bold;
+}
+
+h2 {
+  @apply text-2xl;
+  @apply font-normal;
+}
+
+a {
+  @apply underline;
+}
+
+a:hover {
+  @apply no-underline;
+}
+
+.quote::before {
+  content: "« ";
+}
+
+.quote::after {
+  content: " »";
+}
+
+
+.mediaStripe__element:not(:first-of-type) {
+  margin-left: 1rem;
+}
+
+@media only screen and (max-width: 768px) {
+  .mediaStripe__element {
+    min-width: 100%;
+  }
+  .mediaStripe__element:not(:first-of-type) {
+    margin-left: 0;
+    margin-top: 2rem;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .important\:top-0 {
+    top: 0 !important;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .important\:pt-0 {
+    padding-top: 0 !important;
+  }
+}
