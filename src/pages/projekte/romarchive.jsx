@@ -13,7 +13,7 @@ const IndexPage = () => {
     <Layout>
       <ProjectTeaser
         projectImage="about-united-teaser.jpg"
-        projectTitle=":// about united"
+        projectTitle="RomArchive"
         projectSubtitle="Digitales Archiv der Roma &amp; Sinti"
         projectDescription="Im Jahr 2013 startete eine Gruppe von Aktivisten in Berlin eine Reihe von Soliparty, um Gelder für Gruppen zu sammeln, die sich mit Migrations- und Rassismusfragen beschäftigen. Diese Veranstaltungsreihe finden seither jedes Jahr im Januar im kollektiv Club ://about blank statt . Im Jahr 2015 bat uns die Gruppe, eine Plakatkampagne zu entwickeln, die nicht nur für die Veranstaltung werben, sondern auch eine diskursive Intervention im öffentlichen Raum darstellen würde. Zwischen 2015 und 2019 haben wir mit dieser Gruppe sowie mit vielen anderen Organisationen und einzel Personnen zusammengearbeitet um diese Kampagne zu entwicklen."
         projectMeta={[{ metaTag: "Kooperation", metaInfo: "Zusmmen mit " }]}
